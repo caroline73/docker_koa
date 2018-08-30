@@ -1,0 +1,11 @@
+apps:
+  - script   : '/src/demo/nodeapp/bin/dev.js'
+    name     : 'demo-server'
+    error_file : '/src/logs/pm2/error.log'
+    out_file : '/src/logs/pm2/access.log'
+    # merge_logs : true
+    exec_mode: 'fork'
+    watch: '/src/demo/nodeapp'
+    # ignore_watch: ['/src/dbdata']
+    # exec_mode: 'cluster'
+    # instances: 4

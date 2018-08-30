@@ -1,0 +1,15 @@
+*.swp
+*.swo
+*.tmp
+rg.fail
+tmp
+rg.fail
+npm-debug.log
+.DS_Store
+**/*.DS_Store
+demo/websrc/node_modules
+demo/nodeapp/node_modules
+demo/nodeapp/package-lock.json
+demo/websrc/package-lock.json
+demo/websrc/dist/
+logs/
